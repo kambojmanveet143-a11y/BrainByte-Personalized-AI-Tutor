@@ -12,6 +12,7 @@ Assess → Learn → Practice → Analyze → Improve → Review
 
 The goal is to make the AI behave more like a personal tutor that understands the student's learning progress.
 
+
 🎯 Problem Statement
 
 Students often study the same material regardless of their individual strengths and weaknesses.
@@ -21,6 +22,7 @@ A student may understand one concept very well but struggle with another concept
 General AI tools can explain a topic, but the student usually has to decide what to ask, what to study next, and how to track their progress.
 
 BrainByte solves this problem by creating a personalized learning cycle based on the student's previous performance.
+
 
 💡 Our Solution
 
@@ -46,6 +48,7 @@ Review / Retest
 ↓
 Progress Update
 
+
 ✨ Key Features
 
 👤 Student Profile – Collects student level, subject, topic and learning goal.
@@ -68,11 +71,13 @@ Progress Update
 
 💡 Recommendations – Suggests the next learning activity.
 
+
 🤖 AI Component
 
 The AI component is the core of BrainByte's personalized learning system.
 
 Student information and performance are converted into a personalized prompt. The prompt is sent to the OpenAI API, which generates learning content according to the student's needs.
+
 
 AI Flow
 
@@ -96,6 +101,7 @@ Diagnostic performance
 Weak concepts
 
 Previous quiz performance
+
 
 🛠️ Technology Stack
 
@@ -126,6 +132,7 @@ Student and performance data storage
 Git & GitHub
 
 Version control and collaboration
+
 
 🏗️ Project Structure
 
